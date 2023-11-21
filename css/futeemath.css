@@ -1,0 +1,56 @@
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(223, 247, 10);
+
+}
+h2 {
+
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 4, 255);
+font-size: 1.6rem;
+
+}
+a {
+
+color: rgb(19, 16, 238);
+
+}
+img {
+
+ margin-left: 500px;
+
+}
+h1 {
+
+color: brown;
+
+}
+form div {
+
+margin: 10px;
+background: #fff;
+/*border-bottom: 1px solid #0d0;*/
+border: 0 ;
+border-top: 1px solid #0d0;
+border-left: 1px solid #0d0;
+border-right: 1px solid #0d0;
+padding: 0px 10px 0px 20px;
+
+}
+H1 {
+
+text-align: center;
+color: #0d0;
+font-size: 3em;
+
+}
+h3 {
+
+ color: blue;
+
+}
+li {
+font-size: 1em;
+
+}
