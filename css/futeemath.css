@@ -21,28 +21,13 @@ img {
  margin-left: 500px;
 
 }
+
 h1 {
-
-color: brown;
-
-}
-form div {
-
-margin: 10px;
-background: #fff;
-/*border-bottom: 1px solid #0d0;*/
-border: 0 ;
-border-top: 1px solid #0d0;
-border-left: 1px solid #0d0;
-border-right: 1px solid #0d0;
-padding: 0px 10px 0px 20px;
-
-}
-H1 {
 
 text-align: center;
 color: #0d0;
 font-size: 3em;
+margin: 10px;
 
 }
 h3 {
@@ -54,3 +39,20 @@ li {
 font-size: 1em;
 
 }
+h2 {
+
+    text-align: center;
+    color: blue;
+    font-size: 3em;
+    margin: 10px;
+
+}
+label{
+
+margin-left: 600px;
+
+}
+
+    
+
+    

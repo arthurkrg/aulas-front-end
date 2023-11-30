@@ -4,53 +4,93 @@
               <title>futmath teste</title>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1">
-              <link rel="stylesheet" type="text/css" href="css/futeemath.css">
-        </head>
-        <body>
-                         
-                                          <article>
-                        <h2>login</h2>   <h1>Brasil</h1>
-                                           
-                                                 <form method="post">
-                                            <div>
-                                                    <label for="nome">nome</label>
-                                               <input type="text" name="name" placeholder="digite seu nome" width="200">
-                                            </div>
-
-                                            <div>
-
-                                               <label for="password">password</label>
-                                               <input type="password" name="passworld" id="passworld" placeholder="digite sua senha">
-
-                                            </div>
-                                            
-                                            <div>
-                                                
-<input type="submit">
-                                               
-
-                                            </div>
-                                            <div>
-                                                <a href="crar_conta.html">nao tem uma conta?</a>
-
-                                            </div>
-                                            <div>
-
-                                                <img src="file:///C:/Users/rodri/Downloads/kisspng-football-team-logo-association-football-manager-sp-football-5ab6a6af50ef87.8430160115219196633315.png" width="800">
-
-                                            </div>
-                            
-                                                
-                                           </form>           
-
-                                          </article>
-                                    </section>
-                                   
-
-                                    
-
-
+              <link rel="stylesheet" type="text/css" href="css/0test.css">
+              <form class="form" action="enviarDados.php" method="post">
+      
+                <div class="input-box">
+                    <label>Nome completo</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required="" >
+                </div>
+                
+                <div class="column">
+                
+                    <div class="input-box">
+                      <label>E-mail</label>
+                      <input type="email" name="email" placeholder="Digite seu e-mail" required="" >
+                    </div>
+                
+                    <div class="input-box">
+                      <label>Telefone</label>
+                      <input type="tel" name="telefone" placeholder="Digite seu telefone" required="">
+                    </div>
+                
+                </div>
+                
+                <div class="gender-box">
+                
+                  <label>Sexo</label>
+                  
+                  <div class="gender-option">
+                    
+                      <div class="gender">
+                      
+                          <input type="radio" name="sexo" value="Masculino" id="check-male">
+                          <label for="check-male">Masculino</label>
+                    
+                      </div>
+                    
+                      <div class="gender">
+                      
+                         <input type="radio" name="sexo" value="Feminino" id="check-female">
+                         <label for="check-female">Feminino</label>
+                      
+                      </div>
           
-        </body>
+                  </div>
+          
+                </div>
+                
+                  <div class="input-box">
+                  
+                      <label>Quero aprender a fazer ?</label>                        
+                      <div class="column">
+                      
+                          <div class="select-box">
+                          
+                              <select name="aprender">
+                                
+                                  <option value="" selected>Selecione</option>
+                                  <option value="Formulários">Formulários</option>
+                                  <option value="Menus">Menus</option>
+                                  <option value="Rodapé">Rodapé</option>
+                                  <option value="Botão">Botão</option>
+                                  <option value="Galeria de Fotos">Galeria de Fotos</option>
+                              
+                              </select>
+                          
+                          </div>
+                      
+                      
+                      </div>
+                
+                  </div>
+                  
+                  <label class="naoexibir">
+                      <span>Não preencher:</span><br>
+                      <input type="text" name="url" value=""></p>
+                  </label> 
+          
+                  <div class="input-box">
+          
+                      <textarea name="mensagem" cols="30" rows="3" required></textarea>
+                  
+                  </div>
+                
+                <a href="parabens.html"><button>Enviar Dados</button></a>
+            
+              </form>
+          
+          </div><!--container-form-->
+    
 
 <html>
